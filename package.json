@@ -1,6 +1,6 @@
 {
   "name": "randomkey",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Lightweight node.js lib for generating random strings from a character set",
   "main": "index.js",
   "repository": {
