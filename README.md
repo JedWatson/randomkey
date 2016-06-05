@@ -37,7 +37,7 @@ var rk = require('randomkey');
 var key = rk(10);
 
 // generate a 6 character key using only the characters `a`, `b` and `c`
-var abc = rk(10, 'abc');
+var abc = rk(6, 'abc');
 
 // generate a 16 character key using the "safe" character set:
 var safe = rk(16, rk.safe);
