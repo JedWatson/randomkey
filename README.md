@@ -2,6 +2,8 @@
 
 Lightweight node.js lib for generating random strings.
 
+> **NOTE:** This library does not use cryptographically secure data. DO NOT USE THIS FOR PASSWORD GENERATION OR ANYTHING THAT SHOULD BE UNGUESSABLE.
+
 You can specify the length and character set to use.
 
 If you specify length as an array `[min, max]` a number in the range will be
