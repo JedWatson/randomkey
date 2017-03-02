@@ -24,6 +24,7 @@ randomKey.default = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwx
 randomKey.lower = 'abcdefghijklmnopqrstuvwxtz';
 randomKey.numbers = '0123456789';
 randomKey.safe = '2346789ABCDEFGHJKLMNPRTUVWXTZ';
+randomKey.safeLower = '23456789abcdefghijkmnopqrstuvwxyz';
 randomKey.upper = 'ABCDEFGHIJKLMNOPQRSTUVWXTZ';
 
 module.exports = randomKey;

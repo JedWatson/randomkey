@@ -21,6 +21,7 @@ Several character sets are provided as properties of the function:
 * `alphanumeric`: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ`
 * `numbers`: `0123456789`
 * `safe`: `2346789ABCDEFGHJKLMNPRTUVWXTZ`
+* `safeLower`: `23456789abcdefghijkmnopqrstuvwxyz`
 
 ## Usage
 
