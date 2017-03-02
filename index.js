@@ -19,12 +19,13 @@ function randomKey (len, chars) {
 	return str;
 }
 
-randomKey.alphanumeric = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-randomKey.default = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz';
-randomKey.lower = 'abcdefghijklmnopqrstuvwxyz';
-randomKey.numbers = '0123456789';
-randomKey.safe = '2346789ABCDEFGHJKLMNPRTUVWXYZ';
-randomKey.safeLower = '23456789abcdefghijkmnopqrstuvwxyz';
 randomKey.upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+randomKey.lower = randomKey.upper.toLowerCase();
+randomKey.numbers = '0123456789';
+
+randomKey.alphanumeric = randomKey.numbers + randomKey.upper;
+randomKey.default = randomKey.alphanumeric + randomKey.lower;
+randomKey.safe = randomKey.alphanumeric.replace(/[015IOQS]/g, '');
+randomKey.safeLower = randomKey.alphanumeric.toLowerCase().replace(/[01l]/g, '');
 
 module.exports = randomKey;
