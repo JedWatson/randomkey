@@ -10,17 +10,18 @@ used.
 The character set defaults to:
 
 ```
-0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz
 ```
 
 Several character sets are provided as properties of the function:
 
-* `default`: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz`
-* `upper`: `ABCDEFGHIJKLMNOPQRSTUVWXTZ`
-* `lower`: `abcdefghijklmnopqrstuvwxtz`
-* `alphanumeric`: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ`
+* `default`: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghiklmnopqrstuvwxyz`
+* `upper`: `ABCDEFGHIJKLMNOPQRSTUVWXYZ`
+* `lower`: `abcdefghijklmnopqrstuvwxyz`
+* `alphanumeric`: `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 * `numbers`: `0123456789`
-* `safe`: `2346789ABCDEFGHJKLMNPRTUVWXTZ`
+* `safe`: `2346789ABCDEFGHJKLMNPRTUVWXYZ`
+* `safeLower`: `23456789abcdefghijkmnopqrstuvwxyz`
 
 ## Usage
 
